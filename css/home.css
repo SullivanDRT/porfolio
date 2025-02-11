@@ -1,0 +1,60 @@
+body{
+    background-color: #808080;
+}
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 0.5rem;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    color: beige;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    justify-content: center;
+}
+nav ul{
+    width: 100;
+    display: flex;
+    list-style: none;
+
+
+}
+
+ul{
+    gap: 1.5rem;
+
+}
+
+nav ul li{
+    font-size: 1.5rem;
+}
+
+img{
+    height: 100%;
+    max-height: 60px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* body */
+h1{
+color: beige;
+}
+h2{
+    color: #DCB253;
+}
+
+.name{
+    font-size: 1.5rem;
+    color: beige;
+}
